@@ -99,6 +99,8 @@
 
 - [x] black knight (22.05.15)
 
+![items](/records-archive/Images/items.png)
+
 ---
 
 ### ~~Effects~~
@@ -125,6 +127,8 @@
 
 - [x] circles on cells a selected pieace can move
 
+![motion](/records-archive/Images/motion.gif)
+
 ---
 
 ### ~~Events~~
@@ -138,6 +142,8 @@
 ###
 
 - [x] click another cell with a pieace (22.05.26)
+
+![events](/records-archive/Images/events.gif)
 
 ---
 
@@ -215,6 +221,8 @@
 
 #### 8.턴을 바꾼다.
 
+![attackMotion](/records-archive/Images/attackMotion.gif)
+
 ---
 
 ### ~~앙파상[x] (2022.05.26)~~
@@ -229,6 +237,8 @@
 
 #### 5.앙파상을 하든 안하든 이번턴을 넘기면 앙파상 이벤트를 끝낸다.
 
+![INPASSING](/records-archive/Images/INPASSING.gif)
+
 ---
 
 ### ~~캐슬링[x] (2022.05.29)~~
@@ -238,6 +248,8 @@
 #### 2.킹이 캐슬링 위치로 가면 캐슬링을 발동한다.
 
 #### 3.캐슬링이 발동하면 룩콰 킹은 각각 약속된 칸으로 이동한다.
+
+![castling](/records-archive/Images/castling.gif)
 
 ---
 
