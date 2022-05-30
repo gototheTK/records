@@ -15,8 +15,9 @@ export const chess = {
   alignItems: CENTER,
   justifyContent: CENTER,
   gap: "1.9rem",
-  maxWidth: "1100px",
+  maxWidth: "700px",
   margin: "2rem auto -6rem",
+  border: "3px solid",
 };
 
 export const status = {

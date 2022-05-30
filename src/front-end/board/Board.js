@@ -25,7 +25,7 @@ class Board extends Component {
       <section
         style={{
           display: "block",
-          border: "5px solid",
+          border: "3px solid",
           maxWidth: "700px",
           minWidth: "500px",
           margin: "100px auto",
