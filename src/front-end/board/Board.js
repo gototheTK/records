@@ -30,6 +30,7 @@ class Board extends Component {
           minWidth: "500px",
           margin: "100px auto",
           wordBreak: "break-word",
+          padding: "50px",
         }}
       >
         <ReactMarkdown
