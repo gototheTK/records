@@ -1,5 +1,34 @@
 # JavaSwing Project
 
+---
+
+https://github.com/gototheTK/JavaSwingProject
+
+---
+
+---
+
+## Used languages & tools
+
+---
+
+### 1.Front
+
+    - Java_SWING
+
+### 2.Back
+
+    - Java
+
+### 3.Environment
+
+    - Window10
+    - eclipse
+
+---
+
+---
+
 # 패스트 주문 관리 POS
 
 <img src="https://github.com/gototheTK/JavaSwingProject/blob/master/%EC%BA%A1%EC%B3%90%EC%98%81%EC%83%8112.gif?raw=true" width="700" height="400"> <br>

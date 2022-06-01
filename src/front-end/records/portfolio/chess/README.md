@@ -2,6 +2,8 @@
 
 ---
 
+https://github.com/gototheTK/chess_portfolio
+
 ---
 
 ## Used languages & tools
