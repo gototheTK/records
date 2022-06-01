@@ -2,10 +2,17 @@ import { CS, PORTFOLIO, PROGRAMMING } from "../page/pageReducer";
 import ChessGame from "./portfolio/chess/ChessGame";
 
 const README = "README";
+const date = (year = "", month = "", day = "") => `${year}.${month}.${day}`;
 
 export const subjects = {
   portfolio: {
-    chess: ["README"],
+    chess: [{ file: README, start: date(2022, 5, 15), end: date() }],
+    movieRecommend: [
+      { file: README, start: date(2020, 3, 19), end: date(2020, 4, 19) },
+    ],
+    javaSwingProject: [
+      { file: README, start: date(2019, 5, 15), end: date(2019, 6, 4) },
+    ],
   },
   cs: {
     network: [],

@@ -10,13 +10,14 @@ function Item({ category, subject, content }) {
         <h2>{category.toUpperCase()}</h2>
       </div>
       <div>
-        <Link to={`/${category}/${subject}/${content}`}>
+        <Link to={`/${category}/${subject}/${content.file}`}>
           <h2>{subject.toUpperCase()}</h2>
         </Link>
       </div>
       <span>
-        <h4>2022.05.15</h4>
+        <h4>{content.start}</h4>
         <h4>~</h4>
+        <h4>{content.end}</h4>
       </span>
     </div>
   );

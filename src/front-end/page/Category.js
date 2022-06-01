@@ -20,15 +20,16 @@ class Category extends Component {
     return (
       <Routes>
         <Route
-          path={`/`}
+          key={this.state.category}
+          path={`/*`}
           element={
             <List category={this.state.category} items={this.state.items} />
           }
-        ></Route>
+        />
         {this.state.items.map((item, index) => (
           <Route
             key={index}
-            path={`:${item.subject}/${item.content}`}
+            path={`/${item.subject}/${item.content.file}`}
             element={
               <Page
                 key={index}
