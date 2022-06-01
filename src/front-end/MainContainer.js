@@ -16,23 +16,14 @@ class MainContainer extends Component {
   render() {
     return (
       <>
-        <BrowserRouter>
+        <BrowserRouter host basename={process.env.PUBLIC_URL}>
           <Navbar />
-          <Hamburger />
           <Routes>
-            <Route
-              path={`/records-archive/${PORTFOLIO}/*`}
-              element={<Portfolio />}
-            />
-            <Route
-              path={`/records-archive/${CS}/*`}
-              element={<ComputerScience />}
-            />
-            <Route
-              path={`/records-archive/${PROGRAMMING}/*`}
-              element={<Programming />}
-            />
-            <Route path={`/records-archive/${ABOUT}/*`} element={<About />} />
+            <Route path={`*`} element={<Portfolio />} />
+            <Route path={`/${PORTFOLIO}/*`} element={<Portfolio />} />
+            <Route path={`/${CS}/*`} element={<ComputerScience />} />
+            <Route path={`/${PROGRAMMING}/*`} element={<Programming />} />
+            <Route path={`/${ABOUT}/*`} element={<About />} />
           </Routes>
         </BrowserRouter>
       </>

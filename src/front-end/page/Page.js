@@ -16,7 +16,7 @@ class Page extends Component {
   }
 
   componentDidMount() {
-    const readmePath = require(`../records/${this.state.category}/${this.state.subject}/${this.state.content}.md`);
+    const readmePath = require(`/home/portfolios/records-archive/src/front-end/records/${this.state.category}/${this.state.subject}/${this.state.content}.md`);
     fetch(readmePath)
       .then((response) => response.text())
       .then((text) => {
@@ -35,7 +35,7 @@ class Page extends Component {
             display: "block",
             border: "3px solid",
             maxWidth: "700px",
-            minWidth: "500px",
+            minWidth: "480px",
             margin: "100px auto",
             wordBreak: "break-word",
             padding: "50px",

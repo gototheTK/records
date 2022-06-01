@@ -6,7 +6,7 @@ export const item = {
   borderRadius: "0.6rem",
   minHeight: "10rem",
   maxWidth: "1000px",
-  gap: "10rem",
+  gap: "4rem",
   margin: "2rem auto -6rem",
   boxShadow: "10px 10px 10px #f1f1f1",
   padding: "1rem 1.5rem",

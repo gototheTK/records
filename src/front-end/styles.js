@@ -49,7 +49,9 @@ export const navLink = {
   fontWeight: varBoldFont,
 };
 
-export const bar = {};
+export const bar = {
+  backgroundColor: "#000",
+};
 
 export const hamburger = {
   display: "none",

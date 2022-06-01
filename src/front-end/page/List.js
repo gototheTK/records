@@ -5,12 +5,12 @@ import * as styles from "./ItemStyles";
 
 function Item({ category, subject, content }) {
   return (
-    <div style={styles.item}>
+    <div className={"item"} style={styles.item}>
       <div>
         <h2>{category.toUpperCase()}</h2>
       </div>
       <div>
-        <Link to={`/records-archive/${category}/${subject}/${content}`}>
+        <Link to={`/${category}/${subject}/${content}`}>
           <h2>{subject.toUpperCase()}</h2>
         </Link>
       </div>
