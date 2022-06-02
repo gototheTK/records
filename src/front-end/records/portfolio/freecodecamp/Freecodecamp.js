@@ -15,7 +15,7 @@ class Freecodecamp extends Component {
             margin: "auto",
           }}
         >
-          <h1>Freecodecamp 과제 프로젝트</h1>
+          <h1>Freecodecamp 과제 실습 프로젝트</h1>
           <hr />
         </div>
         <section id={"freecodecamp"} style={portfolioSection}>
