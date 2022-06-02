@@ -44,15 +44,23 @@
 
 <br/>
 
-### you make a data model, ask yourself the questions below
+### 1. you make a data model, ask yourself the questions below
 
-### Is the column an object or an attribute of another object?
+<br/>
 
-### Once we define objects, we need to define the relationships between objects.
+### - Is the column an object or an attribute of another object?
 
-### So Do not replicate data - reference data - point at data.
+<br/>
 
-### Use integers for a primary key and for a foreign key. By convention, the primary key is called “id.”
+### 2. Once we define objects, we need to define the relationships between objects.
+
+<br/>
+
+### 3. So Do not replicate data - reference data - point at data.
+
+<br/>
+
+### 4. Use integers for a primary key and for a foreign key. By convention, the primary key is called “id.”
 
 <br/>
 
