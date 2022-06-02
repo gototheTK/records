@@ -6,7 +6,7 @@ const README = "README";
 
 export const subjects = {
   portfolio: {
-    chess: [{ file: README, start: new Date(2022, 5, 15), end: "" }],
+    chess: [{ file: README, start: new Date(2022, 4, 15), end: "" }],
     freecodecamp: [
       { file: README, start: new Date(2022, 4, 1), end: new Date(2022, 4, 30) },
     ],
@@ -35,7 +35,18 @@ export const subjects = {
     network: [],
     os: [],
     ca: [],
-    database: [],
+    database: [
+      {
+        file: "Postgre_SQL_DataBase",
+        start: "",
+        end: new Date(2022, 5, 15),
+      },
+      {
+        file: "Basic_Database",
+        start: "",
+        end: new Date(2022, 5, 14),
+      },
+    ],
   },
   programming: {
     java: [],
