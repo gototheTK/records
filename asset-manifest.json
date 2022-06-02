@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/records-archive/static/css/main.1093a73e.css",
-    "main.js": "/records-archive/static/js/main.b8efe062.js",
+    "main.js": "/records-archive/static/js/main.d17554e7.js",
     "static/js/787.3bd18aa8.chunk.js": "/records-archive/static/js/787.3bd18aa8.chunk.js",
+    "static/media/Basic_Command.md": "/records-archive/static/media/Basic_Command.f59fa57c7e026a3876b3.md",
     "static/media/README.md": "/records-archive/static/media/README.8850b7294c464a435e86.md",
     "static/media/Basic_Web.md": "/records-archive/static/media/Basic_Web.1747be5a8520e1be90d0.md",
     "static/media/Postgre_SQL_DataBase.md": "/records-archive/static/media/Postgre_SQL_DataBase.f9c76429f72e216850ea.md",
@@ -10,11 +11,11 @@
     "static/media/Basic_Database.md": "/records-archive/static/media/Basic_Database.206cece84032eaa32239.md",
     "index.html": "/records-archive/index.html",
     "main.1093a73e.css.map": "/records-archive/static/css/main.1093a73e.css.map",
-    "main.b8efe062.js.map": "/records-archive/static/js/main.b8efe062.js.map",
+    "main.d17554e7.js.map": "/records-archive/static/js/main.d17554e7.js.map",
     "787.3bd18aa8.chunk.js.map": "/records-archive/static/js/787.3bd18aa8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1093a73e.css",
-    "static/js/main.b8efe062.js"
+    "static/js/main.d17554e7.js"
   ]
 }
