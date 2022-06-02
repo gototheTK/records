@@ -1,11 +1,15 @@
 import { CS, PORTFOLIO, PROGRAMMING } from "../page/pageReducer";
 import ChessGame from "./portfolio/chess/ChessGame";
+import Freecodecamp from "./portfolio/freecodecamp/Freecodecamp";
 
 const README = "README";
 
 export const subjects = {
   portfolio: {
     chess: [{ file: README, start: new Date(2022, 5, 15), end: "" }],
+    freecodecamp: [
+      { file: README, start: new Date(2022, 4, 1), end: new Date(2022, 4, 30) },
+    ],
     community: [
       { file: README, start: new Date(2021, 7, 1), end: new Date(2021, 7, 21) },
     ],
@@ -53,6 +57,8 @@ export const selectPortfolio = (name) => {
   switch (name) {
     case "chess":
       return <ChessGame />;
+    case "freecodecamp":
+      return <Freecodecamp />;
     default:
   }
 };

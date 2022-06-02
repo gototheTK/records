@@ -16,7 +16,7 @@ class MainContainer extends Component {
   render() {
     return (
       <>
-        <BrowserRouter host basename={process.env.PUBLIC_URL}>
+        <BrowserRouter basename={"/records-archive"}>
           <Navbar />
           <Routes>
             <Route path={`*`} element={<Portfolio />} />
