@@ -19,13 +19,13 @@ https://github.com/gototheTK/Community
 
 ### 2.Back
 
-    - Java20.04.2 LTS
+    - Java11
     - Java_SpringBoot
     - Mysql 8.0.29-0ubuntu0.20.04.3
 
 ### 3.Environment
 
-    - ubuntu 20.04 lts(wsl)
+    - ubuntu 20.04.2 LTS(wsl)
     - vscode
 
 ---
