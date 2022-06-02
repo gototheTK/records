@@ -19,7 +19,9 @@ class Navbar extends Component {
             </Link>
           </li>
           <li className={"nav-item"} style={styles.navListItem}>
-            <Link to={`/${CS}/`}>CS</Link>
+            <Link to={`/${CS}/`} style={styles.navListItemLink}>
+              CS
+            </Link>
           </li>
           <li className={"nav-item"} style={styles.navListItem}>
             <Link to={`/${PROGRAMMING}`} style={styles.navListItemLink}>

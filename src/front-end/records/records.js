@@ -7,6 +7,9 @@ const date = (year = "", month = "", day = "") => `${year}.${month}.${day}`;
 export const subjects = {
   portfolio: {
     chess: [{ file: README, start: date(2022, 5, 15), end: date() }],
+    community: [
+      { file: README, start: date(2021, 7, 1), end: date(2021, 7, 21) },
+    ],
     board: [
       { file: README, start: date(2020, 12, 19), end: date(2020, 12, 23) },
     ],

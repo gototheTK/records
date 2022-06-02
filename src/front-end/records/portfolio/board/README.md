@@ -18,7 +18,7 @@ https://github.com/gototheTK/Board
 
 ### 2.Back
 
-    - Java
+    - Java8
     - Java_Spring
     - Oracle8
 
