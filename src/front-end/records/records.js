@@ -32,7 +32,18 @@ export const subjects = {
     ],
   },
   cs: {
-    network: [],
+    network: [
+      {
+        file: "Basic_Web",
+        start: "",
+        end: new Date(2022, 5, 18),
+      },
+      {
+        file: "Basic_Network",
+        start: "",
+        end: new Date(2022, 5, 17),
+      },
+    ],
     os: [],
     ca: [],
     database: [
