@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/records-archive/static/css/main.1093a73e.css",
-    "main.js": "/records-archive/static/js/main.06c70bdc.js",
+    "main.js": "/records-archive/static/js/main.2567a436.js",
     "static/js/787.3bd18aa8.chunk.js": "/records-archive/static/js/787.3bd18aa8.chunk.js",
     "static/media/README.md": "/records-archive/static/media/README.8850b7294c464a435e86.md",
+    "static/media/Postgre_SQL_DataBase.md": "/records-archive/static/media/Postgre_SQL_DataBase.366afb27a2927dd352aa.md",
+    "static/media/Basic_Database.md": "/records-archive/static/media/Basic_Database.9aae36696939a46fd4d3.md",
     "index.html": "/records-archive/index.html",
     "main.1093a73e.css.map": "/records-archive/static/css/main.1093a73e.css.map",
-    "main.06c70bdc.js.map": "/records-archive/static/js/main.06c70bdc.js.map",
+    "main.2567a436.js.map": "/records-archive/static/js/main.2567a436.js.map",
     "787.3bd18aa8.chunk.js.map": "/records-archive/static/js/787.3bd18aa8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1093a73e.css",
-    "static/js/main.06c70bdc.js"
+    "static/js/main.2567a436.js"
   ]
 }
