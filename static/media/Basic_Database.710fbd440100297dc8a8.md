@@ -6,6 +6,8 @@
 
 <br/>
 
+---
+
 ## Why use Relational DataBase?
 
 <br/>
@@ -80,7 +82,11 @@
 
 ### Many-to-Many: It’s a relationship that one more row in the table points to one more row in another table. It’s made by adding a connection table with two foreign keys.
 
+<br/>
+
 ### One-To-One: One row in a table is related to one row in another table.
+
+<br/>
 
 ### One-To-Many: One row in a table is related to many rows in another table.
 
