@@ -22,11 +22,13 @@ https://github.com/gototheTK/Community
     - Java11
     - Java_SpringBoot
     - Mysql 8.0.29-0ubuntu0.20.04.3
+    - Nginx
 
 ### 3.Environment
 
     - Ubuntu 20.04.2 LTS(WSL)
     - Vscode
+    - Amazon web service
 
 ---
 
