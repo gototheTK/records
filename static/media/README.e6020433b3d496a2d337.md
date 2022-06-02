@@ -18,7 +18,7 @@ https://github.com/gototheTK/JavaSwingProject
 
 ### 2.Back
 
-    - Java
+    - Java8
 
 ### 3.Environment
 
