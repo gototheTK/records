@@ -25,8 +25,8 @@ https://github.com/gototheTK/Community
 
 ### 3.Environment
 
-    - ubuntu 20.04.2 LTS(wsl)
-    - vscode
+    - Ubuntu 20.04.2 LTS(WSL)
+    - Vscode
 
 ---
 

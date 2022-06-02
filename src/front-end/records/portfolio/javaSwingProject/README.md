@@ -23,7 +23,7 @@ https://github.com/gototheTK/JavaSwingProject
 ### 3.Environment
 
     - Window10
-    - eclipse
+    - Eclipse
 
 ---
 
