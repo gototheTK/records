@@ -6,9 +6,13 @@ const README = "README";
 
 export const subjects = {
   portfolio: {
-    chess: [{ file: README, start: new Date(2022, 4, 15), end: "" }],
+    chess: [{ file: README, start: new Date(2022, 5, 15), end: "" }],
     freecodecamp: [
-      { file: README, start: new Date(2022, 4, 1), end: new Date(2022, 4, 30) },
+      {
+        file: README,
+        start: new Date(2022, 4, 15),
+        end: new Date(2022, 4, 30),
+      },
     ],
     community: [
       { file: README, start: new Date(2021, 7, 1), end: new Date(2021, 7, 21) },
