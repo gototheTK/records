@@ -12,9 +12,9 @@ https://github.com/gototheTK/Board
 
 ### 1.Front
 
-    - html
-    - css
-    - jsp
+    - Html
+    - Css
+    - Jsp
 
 ### 2.Back
 
@@ -25,7 +25,7 @@ https://github.com/gototheTK/Board
 ### 3.Environment
 
     - Window10
-    - vscode
+    - Vscode
 
 ---
 
