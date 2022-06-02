@@ -15,9 +15,11 @@ function Item({ category, subject, content }) {
         </Link>
       </div>
       <span>
-        <h4>{content.start}</h4>
+        <h4>{content.start.toISOString().substring(0, 10)}</h4>
         <h4>~</h4>
-        <h4>{content.end}</h4>
+        <h4>
+          {content.end === "" ? "" : content.end.toISOString().substring(0, 10)}
+        </h4>
       </span>
     </div>
   );

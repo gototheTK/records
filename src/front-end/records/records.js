@@ -2,22 +2,29 @@ import { CS, PORTFOLIO, PROGRAMMING } from "../page/pageReducer";
 import ChessGame from "./portfolio/chess/ChessGame";
 
 const README = "README";
-const date = (year = "", month = "", day = "") => `${year}.${month}.${day}`;
 
 export const subjects = {
   portfolio: {
-    chess: [{ file: README, start: date(2022, 5, 15), end: date() }],
+    chess: [{ file: README, start: new Date(2022, 5, 15), end: "" }],
     community: [
-      { file: README, start: date(2021, 7, 1), end: date(2021, 7, 21) },
+      { file: README, start: new Date(2021, 7, 1), end: new Date(2021, 7, 21) },
     ],
     board: [
-      { file: README, start: date(2020, 12, 19), end: date(2020, 12, 23) },
+      {
+        file: README,
+        start: new Date(2020, 12, 19),
+        end: new Date(2020, 12, 23),
+      },
     ],
     movieRecommend: [
-      { file: README, start: date(2020, 3, 19), end: date(2020, 4, 19) },
+      {
+        file: README,
+        start: new Date(2020, 3, 19),
+        end: new Date(2020, 4, 19),
+      },
     ],
     javaSwingProject: [
-      { file: README, start: date(2019, 5, 15), end: date(2019, 6, 4) },
+      { file: README, start: new Date(2019, 5, 15), end: new Date(2019, 6, 4) },
     ],
   },
   cs: {
