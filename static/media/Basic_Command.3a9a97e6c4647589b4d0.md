@@ -392,13 +392,13 @@
 
 <br/>
 
-### 전원 켜기 -> 2. POST(Power On Self Test) -> BIOS 단계 -> 부탕 장치 검색 → 부트 로더 실행(Grub 실행) -> 실행 할 커널 선택 -> 커널 로드 및 PID 1번 실행 -> 기타 필수 프로그램 실행 -> 부팅완료
+### - 전원 켜기 -> 2. POST(Power On Self Test) -> BIOS 단계 -> 부탕 장치 검색 → 부트 로더 실행(Grub 실행) -> 실행 할 커널 선택 -> 커널 로드 및 PID 1번 실행 -> 기타 필수 프로그램 실행 -> 부팅완료
 
 <br/>
 
-### - 부팅할 때 나오는 메시지
+### 부팅할 때 나오는 메시지
 
-### /var/log/boot.log
+### - /var/log/boot.log
 
 <br/>
 
@@ -422,27 +422,27 @@
 
 <br/>
 
-### 1 : Single User Model :: 시스템 복원 모드 :: 기본적으로 “관리자 권한”을 획득 (주로 파일 시스템 점검, 패스워드 분실 했을 때 또는 복구 할 때 사용)
+### - 1 : Single User Model :: 시스템 복원 모드 :: 기본적으로 “관리자 권한”을 획득 (주로 파일 시스템 점검, 패스워드 분실 했을 때 또는 복구 할 때 사용)
 
 <br/>
 
-### 2 : Multi User Mode without NFS(Notwork File System :: 공유파일) :: 네트워크를 사용치 않는 텍스트 유저 모드
+### - 2 : Multi User Mode without NFS(Notwork File System :: 공유파일) :: 네트워크를 사용치 않는 텍스트 유저 모드
 
 <br/>
 
-### 3 : Full multi User Mode :: 거의 모든 자원 사용 가능한 텍스트 유저 모드
+### - 3 : Full multi User Mode :: 거의 모든 자원 사용 가능한 텍스트 유저 모드
 
 <br/>
 
-### 4 : Unused(사용X)
+### - 4 : Unused(사용X)
 
 <br/>
 
-### 5 : level 3와 비슷하나 X윈도우가 실행된 그래픽 유저 모드
+### - 5 : level 3와 비슷하나 X윈도우가 실행된 그래픽 유저 모드
 
 <br/>
 
-### 6 : Reboot(시스템 재부팅) :: Run-level을 6으로 변경하면 시스템 재부팅
+### - 6 : Reboot(시스템 재부팅) :: Run-level을 6으로 변경하면 시스템 재부팅
 
 <br/>
 
