@@ -12,15 +12,17 @@ https://github.com/gototheTK/JavaSwingProject
 
 ---
 
-### 1.Front
+### 1. Front
 
     - Java_SWING
+    - Java8
 
 ### 2.Back
 
     - Java8
+    - Oracle 8
 
-### 3.Environment
+### 3. Environment
 
     - Window10
     - Eclipse
