@@ -11,38 +11,40 @@ function LinkedList() {
 
   this.size = () => length;
 
-  this.add = (element) => {
-    // My Code
-    this.head() == null
-      ? (() => {
-          head = new Node(element);
-          console.log(head.element);
-          length = this.size() + 1;
-        })()
-      : head.next === null
-      ? (() => {
-          head.next = new Node(element);
-          length = this.size() + 1;
-        })()
-      : (() => {
-          head.next.next = new Node(element);
-          console.log(head.next.next.element);
-          length = this.size() + 1;
-        })();
-    // My Code
-
-    // Answer Code
-    const node = new Node(element);
-    if (head) {
-      let current = head;
-      while (current.next !== null) {
-        current = current.next;
-      }
-      current.next = node;
-    } else {
+  this.add = function (element) {
+    var node = new Node(element);
+    if (head === null) {
       head = node;
+    } else {
+      var currentNode = head;
+
+      while (currentNode.next) {
+        currentNode = currentNode.next;
+      }
+
+      currentNode.next = node;
     }
     length++;
-    // Answer Code
+  };
+
+  this.remove = function (element) {
+    // Only change code below this line
+    if (head.element === element) {
+      head = head.next;
+      return length--;
+    }
+    let previous = head;
+    while (previous) {
+      let current = previous.next;
+      if (current) {
+        // makes sure we are not at end where current.next would be null
+        if (current.element === element) {
+          previous.next = current.next;
+          return length--;
+        }
+      }
+      previous = current;
+    }
+    // Only change code above this line
   };
 }
