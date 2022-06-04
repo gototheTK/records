@@ -36,6 +36,13 @@ export const subjects = {
     ],
   },
   cs: {
+    data_structures: [
+      {
+        file: "Linked_List",
+        start: new Date(2022, 6, 4),
+        end: "",
+      },
+    ],
     network: [
       {
         file: "Computer_And_Internet",
