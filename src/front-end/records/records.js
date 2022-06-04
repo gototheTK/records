@@ -47,6 +47,11 @@ export const subjects = {
         start: "",
         end: new Date(2022, 5, 17),
       },
+      {
+        file: "Computer And Internet",
+        start: new Date(2022, 6, 3),
+        end: "",
+      },
     ],
     os: [],
     ca: [],
