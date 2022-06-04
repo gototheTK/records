@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/records-archive/static/css/main.1093a73e.css",
-    "main.js": "/records-archive/static/js/main.16cff824.js",
+    "main.js": "/records-archive/static/js/main.f9afe947.js",
     "static/js/787.3bd18aa8.chunk.js": "/records-archive/static/js/787.3bd18aa8.chunk.js",
     "static/media/Basic_Command.md": "/records-archive/static/media/Basic_Command.285beca514849aec3b8f.md",
     "static/media/README.md": "/records-archive/static/media/README.8850b7294c464a435e86.md",
@@ -10,15 +10,15 @@
     "static/media/Postgre_SQL_DataBase.md": "/records-archive/static/media/Postgre_SQL_DataBase.f9c76429f72e216850ea.md",
     "static/media/Basic_Network.md": "/records-archive/static/media/Basic_Network.6eeff1c27ad3534187fa.md",
     "static/media/Basic_Database.md": "/records-archive/static/media/Basic_Database.206cece84032eaa32239.md",
-    "static/media/Linked_List.md": "/records-archive/static/media/Linked_List.829cc849985a24c829cb.md",
+    "static/media/Linked_List.md": "/records-archive/static/media/Linked_List.11f202e1e913155f19d1.md",
     "index.html": "/records-archive/index.html",
     "static/media/Fundamentals_Javascript.md": "/records-archive/static/media/Fundamentals_Javascript.069448932453e26ed1a1.md",
     "main.1093a73e.css.map": "/records-archive/static/css/main.1093a73e.css.map",
-    "main.16cff824.js.map": "/records-archive/static/js/main.16cff824.js.map",
+    "main.f9afe947.js.map": "/records-archive/static/js/main.f9afe947.js.map",
     "787.3bd18aa8.chunk.js.map": "/records-archive/static/js/787.3bd18aa8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1093a73e.css",
-    "static/js/main.16cff824.js"
+    "static/js/main.f9afe947.js"
   ]
 }
