@@ -38,6 +38,11 @@ export const subjects = {
   cs: {
     network: [
       {
+        file: "Computer_And_Internet",
+        start: new Date(2022, 6, 3),
+        end: "",
+      },
+      {
         file: "Basic_Web",
         start: "",
         end: new Date(2022, 5, 18),
@@ -46,11 +51,6 @@ export const subjects = {
         file: "Basic_Network",
         start: "",
         end: new Date(2022, 5, 17),
-      },
-      {
-        file: "Computer And Internet",
-        start: new Date(2022, 6, 3),
-        end: "",
       },
     ],
     os: [],
