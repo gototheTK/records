@@ -1,10 +1,12 @@
 # Computer And Internet
 
---
+---
 
---
+---
 
 <br>
+
+---
 
 ## The Internet
 
