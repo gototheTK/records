@@ -147,6 +147,8 @@ UMich network,	Medicine department,	Lab computer
 
 ## Data Transport Protocol
 
+<br>
+
 ### IP does not handle all the consequences of packets. For example, when a computer might send multiple messages to a destination, the destination needs to identify which packets belong to which message. And, due to some accidents, Packets can arrive out of order, be corrupted, lost, and duplicated. So It’s the data transport protocol on top of IP to deal with these problems. There are two types of the data transport protocol. They are Transmission Control Protocol(TCP) and User Datagram Protocol(UDP). TCP is more reliable than UDP but slower.
 
 <br>
@@ -167,10 +169,48 @@ UMich network,	Medicine department,	Lab computer
 
 <br/>
 
+| 2 bytes(16 bits)   | 2 bytes(16 bits)        |
+| ------------------ | ----------------------- |
+| ------------------ | ----------------------- |
 | source port number | destination port number |
 | ------------------ | ----------------------- |
 | segment length     | Checksum                |
-| Data               |
+| ------------------ | ----------------------- |
+| Data               |                         |
+
+### checksum: binary data
+
+<br>
+
+### how to detect a corrupted data using a checksum
+
+<br>
+
+### Before sending off the segment, the sender:
+
+<br>
+
+### 1. Computes the checksum based on the data in the segment.
+
+    - First,Encode data into binary data.
+    - Next, Segment the binary data into 2-byte binary numbers
+    - Add up the 16-bit binary numbers.
+
+### 2. Stores the computed checksum in the field.
+
+<br>
+
+### Upon receiving the segment, the recipient:
+
+<br>
+
+### 1. Computes the checksum based on the received segment.
+
+    - First,Encode data into binary data.
+    - Next, Segment the binary data into 2-byte binary numbers
+    - Add up the 16-bit binary numbers.
+
+### 2. Compares the checksums to each other. If the checksums aren't equal, it knows the data was corrupted. Then, discard the packet.
 
 <br>
 
