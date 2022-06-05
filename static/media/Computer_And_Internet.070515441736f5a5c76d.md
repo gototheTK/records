@@ -161,7 +161,7 @@ UMich network,	Medicine department,	Lab computer
  
 <br/>
 
-### UDP is simple and fast, at least in comparison to other protocols that work over IP. It only detects the corrupted data using a checksum, but it does not attempt to solve other problems that arise with packets, such as lost or out-of-order packets. It’s often used for time-sensitive applications where speed is more important than accuracy.
+### UDP is simple and fast, at least in comparison to other protocols that work over IP. It only detects the corrupted data using a checksum, but it does not attempt to solve other problems that arise with packets, such as lost or out-of-order packets. So it does not ensure reliable transmission of packets. It’s often used for time-sensitive applications where speed is more important than accuracy.
 
 <br/>
 
@@ -224,9 +224,7 @@ UMich network,	Medicine department,	Lab computer
 
 ## TCP(Transport Control Protocol)
 
-<br>
-
-### Built on top of IP
+### TCP is a transport protocol that is used on top of IP to ensure reliable transmission of packets. It includes mechanisms to solve many of the problems that arise from packet-based messaging, such as lost packets, out of order packets, duplicate packets, and corrupted packets. it handles “flow control” using a transmit window. it provides a nice reliable pipe.
 
 <br>
 
@@ -234,11 +232,23 @@ UMich network,	Medicine department,	Lab computer
 
 <br>
 
-### Handles “flow control” using a transmit window
+### Its packet format:
 
-### Provides a nice reliable pipe
+<br/>
+
+| 2 bytes(16 bits)                   | 2 bytes(16 bits)                   |
+| ---------------------------------- | ---------------------------------- |
+| Source port number                 | Destination port number            |
+| ---------------------------------- | ---------------------------------- |
 
 <br>
+| Sequence number                              |
+| ----------------------------------------------------------------------- |
+| Acknowledgement number                       |
+| ----------------------------------------------------------------------- |
+<br>
+|Offset|Reserved|URC|ACK|RSH|SYNC|FIN|Window size                         |
+| -----| ------ | - | - | - | -- | - | ---------------------------------- |
 
 ---
 
@@ -279,9 +289,3 @@ UMich network,	Medicine department,	Lab computer
 <br>
 
 ### A socket is an endpoint of bidirectional inter-process communication flow across an Internet Protocol-based computer network. And an identifier to identify a process on the specific computer in specific computer networking based on TCP. For example, 123.123.123:80 and so on.
-
-<br/>
-
----
-
-<br/>
