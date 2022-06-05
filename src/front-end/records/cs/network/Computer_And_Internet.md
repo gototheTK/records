@@ -98,6 +98,26 @@
 
 <br/>
 
+<br>
+
+## IP packets
+
+### there's a limit to how large a message can be, since there's a limit to how much data can be reasonably transmitted at once by the physical network connections between devices. That's why many networking protocols split each message into multiple small packets.
+
+<br>
+
+<img src="https://cdn.kastatic.org/ka-perseus-images/337190cba133e19ee9d8b5878453f915971a59cd.svg" width="700">
+
+<br>
+
+### The Internet Protocol (IP) describes the structure of the packets that whizz around the Internet. Each IP packet contains both a header (20 or 24 bytes long) and data (variable length). The header includes the IP addresses of the source and destination, plus other fields that help to route the packet. The data is the actual content, such as a string of letters or part of a webpage.
+
+<br>
+
+---
+
+<br>
+
 ## IP Address
 
 <br>
@@ -140,16 +160,6 @@ UMich network,	Medicine department,	Lab computer
 ### Fortunately, there are often many possible paths a packet can go down to reach the same destination. The availability of multiple paths increases the redundancy of a network. The redundancy of the paths in the network increases the number of possible ways that a packet can reach its destination.
 
 ### A fault-tolerant system is one that can experience failure (or multiple failures) in its components, but still continue operating properly.
-
-<br>
-
----
-
-<br/>
-
-<br>
-
-### IP packets: there's a limit to how large a message can be, since there's a limit to how much data can be reasonably transmitted at once by the physical network connections between devices. That's why many networking protocols split each message into multiple small packets. The Internet Protocol (IP) describes the structure of the packets that whizz around the Internet. Each IP packet contains both a header (20 or 24 bytes long) and data (variable length). The header includes the IP addresses of the source and destination, plus other fields that help to route the packet. The data is the actual content, such as a string of letters or part of a webpage.
 
 <br>
 
