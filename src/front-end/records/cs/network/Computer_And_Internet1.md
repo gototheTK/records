@@ -317,6 +317,8 @@ UMich network,	Medicine department,	Lab computer
 
 ## Detecting lost packets
 
+<br/>
+
 ### After sending off a packet, the sender starts a timer and puts the packet in a retransmission queue. If the timer runs out and the sender has not yet received an ACK from the recipient, it sends the packet again.
 
 <br/>
