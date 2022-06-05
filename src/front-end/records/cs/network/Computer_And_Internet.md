@@ -52,6 +52,8 @@
 
 ### Whenever computing devices are connected in a network, they need protocols to communicate with each other. The Internet needs Internet networking protocols.
 
+<br/>
+
 ## Physical network connections
 
 <br>
@@ -78,6 +80,8 @@
 
 ## Bit rate, bandwidth, and latency
 
+<br/>
+
 ### Bit rate: When a computer sends data to another computer, is uses pulse periods(on puls, nothing). For example, if it sends 5(101), it sends first sending an on pulse, then sending nothing(and waiting), then sending an on pulse. When it comes to measurement of its speed, we use bit rate, the number of bits of data that are sent each second.
 
 <br>
@@ -101,6 +105,8 @@
 <br>
 
 ## IP packets
+
+<br/>
 
 ### there's a limit to how large a message can be, since there's a limit to how much data can be reasonably transmitted at once by the physical network connections between devices. That's why many networking protocols split each message into multiple small packets.
 
@@ -140,7 +146,11 @@
 
 ### Subnets: It's a concept for breaking IP addresses into further subnetworks as needed.Adding further levels to the address hierarchy can improve the efficiency of routing within the network.
 
+<br/>
+
 ### For Example:
+
+<br/>
 
 ```
 141.213      ,  213	               ,    13
@@ -155,9 +165,15 @@ UMich network,	Medicine department,	Lab computer
 
 ## Redundancy and fault tolerance
 
+<br/>
+
 ### What happens if a network path is no longer available, like due to a natural disaster physically destroying it or a cybercriminal hijacking it? Is the packet doomed to never reach its destination?
 
+<br/>
+
 ### Fortunately, there are often many possible paths a packet can go down to reach the same destination. The availability of multiple paths increases the redundancy of a network. The redundancy of the paths in the network increases the number of possible ways that a packet can reach its destination.
+
+<br/>
 
 ### A fault-tolerant system is one that can experience failure (or multiple failures) in its components, but still continue operating properly.
 
@@ -242,6 +258,8 @@ UMich network,	Medicine department,	Lab computer
 <br/>
 
 ## TCP(Transport Control Protocol)
+
+<br/>
 
 ### TCP is a transport protocol that is used on top of IP to ensure reliable transmission of packets. It includes mechanisms to solve many of the problems that arise from packet-based messaging, such as lost packets, out of order packets, duplicate packets, and corrupted packets. it handles “flow control” using a transmit window. it provides a nice reliable pipe.
 
