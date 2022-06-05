@@ -45,9 +45,14 @@ export const subjects = {
     ],
     network: [
       {
+        file: "Computer_And_Internet2",
+        start: new Date(2022, 6, 5),
+        end: "",
+      },
+      {
         file: "Computer_And_Internet1",
         start: new Date(2022, 6, 3),
-        end: "",
+        end: new Date(2022, 6, 5),
       },
       {
         file: "Basic_Web",
