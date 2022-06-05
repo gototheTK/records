@@ -165,6 +165,10 @@ UMich network,	Medicine department,	Lab computer
 
 <br/>
 
+### When sending packets using UDP over IP, the data portion of each IP packet(Opens in a new window) is formatted as a UDP segment.
+
+<br>
+
 ### Its packet format:
 
 <br/>
