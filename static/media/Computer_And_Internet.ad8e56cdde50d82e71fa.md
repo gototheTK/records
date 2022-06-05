@@ -102,7 +102,7 @@
 
 <br>
 
-### Internet Protocol: It's one of the core protocols in the layers of the Internet to handle both addressing and routing.
+### Internet Protocol: It's one of the core protocols in the layers of the Internet to handle both addressing and routing. It describes how to split messages into multiple IP packets and route packets to their destination by hopping from router to router.
 
 <br>
 
@@ -141,6 +141,43 @@ UMich network,	Medicine department,	Lab computer
 
 <br>
 
+---
+
+<br/>
+
+## Data Transport Protocol
+
+### IP does not handle all the consequences of packets. For example, when a computer might send multiple messages to a destination, the destination needs to identify which packets belong to which message. And, due to some accidents, Packets can arrive out of order, be corrupted, lost, and duplicated. So It’s the data transport protocol on top of IP to deal with these problems. There are two types of the data transport protocol. They are Transmission Control Protocol(TCP) and User Datagram Protocol(UDP). TCP is more reliable than UDP but slower.
+
+<br>
+
+---
+
+<br/>
+ 
+## User Datagram Protocol
+ 
+<br/>
+
+### UDP is simple and fast, at least in comparison to other protocols that work over IP. It only detects the corrupted data using a checksum, but it does not attempt to solve other problems that arise with packets, such as lost or out-of-order packets. It’s often used for time-sensitive applications where speed is more important than accuracy.
+
+<br/>
+
+### Its packet format:
+
+<br/>
+
+| source port number | destination port number |
+| ------------------ | ----------------------- |
+| segment length     | Checksum                |
+| Data               |
+
+<br>
+
+---
+
+<br/>
+
 ## TCP(Transport Control Protocol)
 
 <br>
@@ -160,20 +197,6 @@ UMich network,	Medicine department,	Lab computer
 <br>
 
 ---
-
-<br/>
-
-## Socket
-
-<br>
-
-### A socket is an endpoint of bidirectional inter-process communication flow across an Internet Protocol-based computer network. And an identifier to identify a process on the specific computer in specific computer networking based on TCP. For example, 123.123.123:80 and so on.
-
-<br/>
-
----
-
-<br/>
 
 ## TCP Port Numbers
 
@@ -200,6 +223,18 @@ UMich network,	Medicine department,	Lab computer
     - POP(109/110) - Mail Retrieval
     - DNS(53) - Domain Name
     - FTP(21) -File Transfer
+
+<br/>
+
+---
+
+<br/>
+
+## Socket
+
+<br>
+
+### A socket is an endpoint of bidirectional inter-process communication flow across an Internet Protocol-based computer network. And an identifier to identify a process on the specific computer in specific computer networking based on TCP. For example, 123.123.123:80 and so on.
 
 <br/>
 
