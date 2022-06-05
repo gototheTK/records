@@ -233,9 +233,69 @@ UMich network,	Medicine department,	Lab computer
 
 <br/>
 
-<img src="https://cdn.kastatic.org/ka-perseus-images/e5fdf560fdb40a1c0b3c3ce96f570e5f00fff161.svg" width="700px">
+<img src="https://cdn.kastatic.org/ka-perseus-images/e5fdf560fdb40a1c0b3c3ce96f570e5f00fff161.svg" width="700">
 
 <br>
+
+### Each TCP segment contains a header and data. The TCP header contains many more fields than the UDP header and can range in size from 20 to 60 bytes, depending on the size of the options field. The TCP header shares some fields with the UDP header: source port number, destination port number, and checksum.
+
+<br/>
+
+## From start to finish
+
+<br/>
+
+## Step 1: Establish connection
+
+<br/>
+
+### When two computers want to send data to each other over TCP, they first need to establish a connection using a three-way handshake.
+
+<br/>
+
+### The first computer sends a packet with the SYN bit set to 111 (SYN = "synchronize?"). The second computer sends back a packet with the ACK bit set to 111 (ACK = "acknowledge!") plus the SYN bit set to 111. The first computer replies back with an ACK. In fact, the three packets involved in the three-way handshake do not typically include any data.
+
+<br/>
+
+<br/>
+
+## Step 2: Send packets of data
+
+<br/>
+
+### When a packet of data is sent over TCP, the recipient must always acknowledge what they received. The first computer sends a packet with data and a sequence number. The second computer acknowledges it by setting the ACK bit and increasing the acknowledgement number by the length of the received data. Those two numbers help the computers to keep track of which data was successfully received, which data was lost, and which data was accidentally sent twice.
+
+<br/>
+
+## Step 3: Close the connection
+
+<br/>
+
+### Either computer can close the connection when they no longer want to send or receive data. A computer initiates closing the connection by sending a packet with the FIN bit set to 1 (FIN = finish). The other computer replies with an ACK and another FIN. After one more ACK from the initiating computer, the connection is closed.
+
+<br/>
+
+## Detecting lost packets
+
+### After sending off a packet, the sender starts a timer and puts the packet in a retransmission queue. If the timer runs out and the sender has not yet received an ACK from the recipient, it sends the packet again.
+
+<br/>
+
+## Handling out of order packets
+
+<br>
+
+### TCP connections can detect out of order packets by using the sequence and acknowledgement numbers.When the recipient sees a higher sequence number than what they have acknowledged so far, they know that they are missing at least one packet in between. The recipient lets the sender know there's something amiss by sending a packet with an acknowledgement number set to the expected sequence number.
+
+<br>
+
+### In TCP connections, a recipient can use the sequence numbers to reassemble the packet data in the correct order.
+
+<br>
+
+---
+
+<br/>
 
 ## TCP Port Numbers
 
