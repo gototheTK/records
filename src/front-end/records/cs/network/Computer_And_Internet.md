@@ -133,7 +133,19 @@ UMich network,	Medicine department,	Lab computer
 
 <br/>
 
-## Routing with redundancy
+## Redundancy and fault tolerance
+
+### What happens if a network path is no longer available, like due to a natural disaster physically destroying it or a cybercriminal hijacking it? Is the packet doomed to never reach its destination?
+
+### Fortunately, there are often many possible paths a packet can go down to reach the same destination. The availability of multiple paths increases the redundancy of a network. The redundancy of the paths in the network increases the number of possible ways that a packet can reach its destination.
+
+### A fault-tolerant system is one that can experience failure (or multiple failures) in its components, but still continue operating properly.
+
+<br>
+
+---
+
+<br/>
 
 <br>
 
