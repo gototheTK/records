@@ -175,11 +175,8 @@ UMich network,	Medicine department,	Lab computer
 
 | 2 bytes(16 bits)   | 2 bytes(16 bits)        |
 | ------------------ | ----------------------- |
-| ------------------ | ----------------------- |
 | source port number | destination port number |
-| ------------------ | ----------------------- |
 | segment length     | Checksum                |
-| ------------------ | ----------------------- |
 | Data               |                         |
 
 ### checksum: binary data
@@ -236,21 +233,9 @@ UMich network,	Medicine department,	Lab computer
 
 <br/>
 
-| 2 bytes(16 bits)                   | 2 bytes(16 bits)                   |
-| ---------------------------------- | ---------------------------------- |
-| Source port number                 | Destination port number            |
-| ---------------------------------- | ---------------------------------- |
+<img src="https://cdn.kastatic.org/ka-perseus-images/e5fdf560fdb40a1c0b3c3ce96f570e5f00fff161.svg" width="700px">
 
 <br>
-| Sequence number                              |
-| ----------------------------------------------------------------------- |
-| Acknowledgement number                       |
-| ----------------------------------------------------------------------- |
-<br>
-|Offset|Reserved|URC|ACK|RSH|SYNC|FIN|Window size                         |
-| -----| ------ | - | - | - | -- | - | ---------------------------------- |
-
----
 
 ## TCP Port Numbers
 
