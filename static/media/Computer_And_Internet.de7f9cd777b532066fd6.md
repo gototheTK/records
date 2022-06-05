@@ -170,6 +170,7 @@ UMich network,	Medicine department,	Lab computer
 | source port number | destination port number |
 | ------------------ | ----------------------- |
 | segment length     | Checksum                |
+| ------------------ | ----------------------- |
 | Data               |
 
 <br>
