@@ -8,9 +8,9 @@
 
 ---
 
-<br>
-
 # The Internet
+
+---
 
 <br>
 
