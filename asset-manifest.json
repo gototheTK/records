@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/records-archive/static/css/main.1093a73e.css",
-    "main.js": "/records-archive/static/js/main.058dd8de.js",
+    "main.js": "/records-archive/static/js/main.cac36062.js",
     "static/js/787.3bd18aa8.chunk.js": "/records-archive/static/js/787.3bd18aa8.chunk.js",
-    "static/media/Computer_And_Internet1.md": "/records-archive/static/media/Computer_And_Internet1.69c5b28fe9e2ce94cea0.md",
+    "static/media/Computer_And_Internet1.md": "/records-archive/static/media/Computer_And_Internet1.a8471dc57023216fae4d.md",
     "static/media/Basic_Command.md": "/records-archive/static/media/Basic_Command.285beca514849aec3b8f.md",
     "static/media/README.md": "/records-archive/static/media/README.8850b7294c464a435e86.md",
     "static/media/Basic_Web.md": "/records-archive/static/media/Basic_Web.1747be5a8520e1be90d0.md",
@@ -14,11 +14,11 @@
     "index.html": "/records-archive/index.html",
     "static/media/Fundamentals_Javascript.md": "/records-archive/static/media/Fundamentals_Javascript.069448932453e26ed1a1.md",
     "main.1093a73e.css.map": "/records-archive/static/css/main.1093a73e.css.map",
-    "main.058dd8de.js.map": "/records-archive/static/js/main.058dd8de.js.map",
+    "main.cac36062.js.map": "/records-archive/static/js/main.cac36062.js.map",
     "787.3bd18aa8.chunk.js.map": "/records-archive/static/js/787.3bd18aa8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1093a73e.css",
-    "static/js/main.058dd8de.js"
+    "static/js/main.cac36062.js"
   ]
 }
