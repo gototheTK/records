@@ -16,6 +16,14 @@
 
 ### removed method: This method should take the element we want to remove as an argument, and then search the list to find and remove the node that contains that element. If we're removing the middle element, say, we'll want to make sure that we have a connection from that element's previous node's next property to the middle element's next property (which is the next node in the list!). If the element we wish to remove is the head element, we reassign the head to the second node of the linked list.
 
+### elementAt method: This takes an index as an argument and returns the element at the given index. If no element is found, return undefined.
+
+### indexOf method: This takes an element as an argument, and returns that element's index in the linked list. If the element is not found in the linked list, return -1.
+
+### isEmpty method: This could tell if the linked list was empty or not,
+
+### removeAt method: This removes the element at a given index. The method should be called removeAt(index). To remove an element at a certain index, we'll need to keep a running count of each node as we move along the linked list.
+
 ```
 
 function LinkedList() {
@@ -66,6 +74,58 @@ function LinkedList() {
     }
     // Only change code above this line
   };
+
+
+    // Only change code below this line
+
+    this.isEmpty = function(){
+      return head === null ? true : false;
+    }
+
+    this.indexOf = function(element) {
+
+
+      var currentNode = head;
+      let currentIndex = 0;
+
+
+      while(currentNode){
+
+
+        if(currentNode.element === element){
+          return currentIndex;
+        }
+
+        currentNode = currentNode.next;
+        currentIndex++;
+
+      }
+
+
+      return -1 ;
+
+    }
+
+
+    this.removeAt = function(index) {
+
+      if (index < 0 || index >= length) {
+        return null;
+      }
+
+      let deletedNode = head;
+      if (index == 0) {
+        head = null;
+      } else {
+        let currentNode  = head;
+        let currentIndex = 0;
+        while (currentIndex < index - 1) {
+          currentNode = currentNode.next;
+          currentIndex++;
+        }
+        deletedNode      = currentNode.next;
+        currentNode.next = deletedNode.next;
+    }
 
 }
 
