@@ -52,6 +52,13 @@
 
 ---
 
+    q
+
 <br>
 
 ### A way to identify where we want to go on the Internet. A domain name is a human-friendly address for a website, something that's easy for us to remember and type in.
+
+    - 74.125.20.113
+    - www.google.com
+
+<br>
