@@ -12,17 +12,31 @@
 
 ### A linked list is a linear collection of data elements, called 'nodes', each of which points to the next. Each node in a linked list contains two key pieces of information: the element itself, and a reference to the next node.
 
+<br>
+
 ### add method: Add an element to the linked list, our length property should be incremented by one. Or if our list is empty, adding an element to our linked list is straightforward enough: we just wrap that element in a Node class, and we assign that node to the head of our linked list.
+
+<br>
 
 ### removed method: This method should take the element we want to remove as an argument, and then search the list to find and remove the node that contains that element. If we're removing the middle element, say, we'll want to make sure that we have a connection from that element's previous node's next property to the middle element's next property (which is the next node in the list!). If the element we wish to remove is the head element, we reassign the head to the second node of the linked list.
 
+<br>
+
 ### elementAt method: This takes an index as an argument and returns the element at the given index. If no element is found, return undefined.
+
+<br>
 
 ### indexOf method: This takes an element as an argument, and returns that element's index in the linked list. If the element is not found in the linked list, return -1.
 
+<br>
+
 ### isEmpty method: This could tell if the linked list was empty or not,
 
+<br>
+
 ### removeAt method: This removes the element at a given index. The method should be called removeAt(index). To remove an element at a certain index, we'll need to keep a running count of each node as we move along the linked list.
+
+<br>
 
 ```
 

@@ -88,7 +88,7 @@
 
 <br/>
 
-### Many-to-Many: It’s a relationship that one more row in the table points to one more row in another table. It’s made by adding a connection table with two foreign keys.
+### Many-to-Many: It’s a relationship that one more row in the table points to one more row in another table. It’s made by adding a connection table with two foreign keys. "Many-to-many" relationships usually use a junction table to link two tables together, forming two "one-to-many" relationships.
 
 <br/>
 
