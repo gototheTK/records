@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/records-archive/static/css/main.1093a73e.css",
-    "main.js": "/records-archive/static/js/main.6a80a138.js",
+    "main.js": "/records-archive/static/js/main.bec7c40b.js",
     "static/js/787.3bd18aa8.chunk.js": "/records-archive/static/js/787.3bd18aa8.chunk.js",
     "static/media/Computer_And_Internet1.md": "/records-archive/static/media/Computer_And_Internet1.a8471dc57023216fae4d.md",
     "static/media/Basic_Command.md": "/records-archive/static/media/Basic_Command.285beca514849aec3b8f.md",
     "static/media/README.md": "/records-archive/static/media/README.8850b7294c464a435e86.md",
-    "static/media/Linked_List.md": "/records-archive/static/media/Linked_List.76e7b5a06457d4d29881.md",
+    "static/media/Linked_List.md": "/records-archive/static/media/Linked_List.d1982e34a7f43d6813eb.md",
     "static/media/Basic_Web.md": "/records-archive/static/media/Basic_Web.1747be5a8520e1be90d0.md",
     "static/media/Postgre_SQL_DataBase.md": "/records-archive/static/media/Postgre_SQL_DataBase.f9c76429f72e216850ea.md",
     "static/media/Basic_Network.md": "/records-archive/static/media/Basic_Network.6eeff1c27ad3534187fa.md",
@@ -15,11 +15,11 @@
     "index.html": "/records-archive/index.html",
     "static/media/Fundamentals_Javascript.md": "/records-archive/static/media/Fundamentals_Javascript.069448932453e26ed1a1.md",
     "main.1093a73e.css.map": "/records-archive/static/css/main.1093a73e.css.map",
-    "main.6a80a138.js.map": "/records-archive/static/js/main.6a80a138.js.map",
+    "main.bec7c40b.js.map": "/records-archive/static/js/main.bec7c40b.js.map",
     "787.3bd18aa8.chunk.js.map": "/records-archive/static/js/787.3bd18aa8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1093a73e.css",
-    "static/js/main.6a80a138.js"
+    "static/js/main.bec7c40b.js"
   ]
 }
