@@ -50,13 +50,31 @@
 
 <br/>
 
-### 2.CREATE TABLE table_name(column_name DATATYPE);
+### 2.CREATE TABLE table_name(column_name DATATYPE CONSTRAINTS);
 
 <br/>
 
 ---
 
 <br/>
+
+## CRUD
+
+<br>
+
+### DELETE FROM table_name WHERE condition;
+
+<br>
+
+### INSERT INTO table_name(column_1, column_2) VALUES(value1, value2);
+
+### INSERT INTO second_table(id, username) VALUES(1, 'Samus');
+
+<br>
+
+---
+
+<br>
 
 ## How to Add Column:
 
@@ -79,6 +97,10 @@
 <br/>
 
 ### ALTER TABLE table_name RENAME COLUMN column_name TO new_name;
+
+<br>
+
+### ALTER TABLE table_name ADD COLUMN column_name DATATYPE CONSTRAINT REFERENCES referenced_table_name(referenced_column_name);
 
 <br/>
 
@@ -138,6 +160,14 @@
 
 <br/>
 
+### You can create a primary key from two columns, known as a composite primary key.
+
+<br/>
+
+### ALTER TABLE table_name ADD PRIMARY KEY(column1, column2);
+
+<br/>
+
 ### It’s a column that uniquely identifies each row in the table.
 
 <br/>
@@ -146,7 +176,9 @@
 
 <br/>
 
-### - FOREIGN KEY:
+## FOREIGN KEY:
+
+### ALTER TABLE table_name ADD FOREIGN KEY(column_name) REFERENCES referenced_table(referenced_column);
 
 <br/>
 
@@ -182,7 +214,7 @@
 
 <br/>
 
-### - UNIQUE:
+### UNIQUE: ALTER TABLE table_name ADD UNIQUE(column_name);
 
 <br/>
 
@@ -194,7 +226,7 @@
 
 <br/>
 
-### - NOT NULL
+### NOT NULL: ALTER TABLE table_name ALTER COLUMN column_name SET NOT NULL;
 
 <br/>
 
