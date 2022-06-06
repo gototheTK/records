@@ -115,7 +115,7 @@ function LinkedList() {
 
       let deletedNode = head;
       if (index == 0) {
-        head = null;
+        head = head.next;
       } else {
         let currentNode  = head;
         let currentIndex = 0;
@@ -125,6 +125,10 @@ function LinkedList() {
         }
         deletedNode      = currentNode.next;
         currentNode.next = deletedNode.next;
+      }
+
+      length--;
+      return deletedNode.element;
     }
 
 }
