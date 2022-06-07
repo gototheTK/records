@@ -82,7 +82,9 @@ export const subjects = {
   },
   programming: {
     java: [],
-    javascript: [],
+    javascript: [
+      { file: "Fundamentals_Javascript", start: new Date(2022, 6, 8), end: "" },
+    ],
     python: [],
     c: [],
     linux: [{ file: "Basic_Command", start: "", end: new Date(2022, 4, 30) }],
