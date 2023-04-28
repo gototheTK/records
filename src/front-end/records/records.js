@@ -36,6 +36,23 @@ export const subjects = {
     ],
   },
   cs: {
+    database: [
+      {
+        file: "Introduction_To_Database",
+        start: new Date(2023, 4, 27),
+        end: "",
+      },
+      {
+        file: "Postgre_SQL_DataBase",
+        start: new Date(2022, 5, 15),
+        end: "",
+      },
+      {
+        file: "Basic_Database",
+        start: new Date(2022, 5, 14),
+        end: "",
+      },
+    ],
     data_structures: [
       {
         file: "Linked_List",
@@ -67,23 +84,6 @@ export const subjects = {
     ],
     os: [],
     ca: [],
-    database: [
-      {
-        file: "Introduction_To_Database",
-        start: new Date(2023, 4, 27),
-        end: "",
-      },
-      {
-        file: "Postgre_SQL_DataBase",
-        start: new Date(2022, 5, 15),
-        end: "",
-      },
-      {
-        file: "Basic_Database",
-        start: new Date(2022, 5, 14),
-        end: "",
-      },
-    ],
   },
   programming: {
     java: [],
