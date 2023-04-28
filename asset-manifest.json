@@ -1,26 +1,27 @@
 {
   "files": {
     "main.css": "/records-archive/static/css/main.1093a73e.css",
-    "main.js": "/records-archive/static/js/main.6942f15b.js",
+    "main.js": "/records-archive/static/js/main.e8ce0e59.js",
     "static/js/787.3bd18aa8.chunk.js": "/records-archive/static/js/787.3bd18aa8.chunk.js",
     "static/media/Computer_And_Internet1.md": "/records-archive/static/media/Computer_And_Internet1.a8471dc57023216fae4d.md",
     "static/media/Basic_Command.md": "/records-archive/static/media/Basic_Command.285beca514849aec3b8f.md",
-    "static/media/Basic_Database.md": "/records-archive/static/media/Basic_Database.133c584cc717263a98aa.md",
     "static/media/README.md": "/records-archive/static/media/README.8850b7294c464a435e86.md",
     "static/media/Linked_List.md": "/records-archive/static/media/Linked_List.d1982e34a7f43d6813eb.md",
     "static/media/Postgre_SQL_DataBase.md": "/records-archive/static/media/Postgre_SQL_DataBase.2bd6b45e2283d53f4480.md",
     "static/media/Basic_Web.md": "/records-archive/static/media/Basic_Web.1747be5a8520e1be90d0.md",
+    "static/media/Introduction_To_Database.md": "/records-archive/static/media/Introduction_To_Database.18c4bb4ac158f11db195.md",
+    "static/media/Basic_Database.md": "/records-archive/static/media/Basic_Database.33ddb5f89e6163ffdec1.md",
     "static/media/Basic_Network.md": "/records-archive/static/media/Basic_Network.6eeff1c27ad3534187fa.md",
     "static/media/Computer_And_Internet2.md": "/records-archive/static/media/Computer_And_Internet2.4baac06362d6b9125f94.md",
     "index.html": "/records-archive/index.html",
     "static/media/Fundamentals_Javascript.md": "/records-archive/static/media/Fundamentals_Javascript.b5d91e0cee03f93c6060.md",
     "static/media/Git_Commands.md": "/records-archive/static/media/Git_Commands.31d6cfe0d16ae931b73c.md",
     "main.1093a73e.css.map": "/records-archive/static/css/main.1093a73e.css.map",
-    "main.6942f15b.js.map": "/records-archive/static/js/main.6942f15b.js.map",
+    "main.e8ce0e59.js.map": "/records-archive/static/js/main.e8ce0e59.js.map",
     "787.3bd18aa8.chunk.js.map": "/records-archive/static/js/787.3bd18aa8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1093a73e.css",
-    "static/js/main.6942f15b.js"
+    "static/js/main.e8ce0e59.js"
   ]
 }
