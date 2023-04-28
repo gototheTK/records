@@ -45,26 +45,26 @@ export const subjects = {
       {
         file: "Postgre_SQL_DataBase",
         start: new Date(2022, 5, 15),
-        end: "",
+        end: new Date(2022, 6, 20),
       },
       {
         file: "Basic_Database",
         start: new Date(2022, 5, 14),
-        end: "",
+        end: new Date(2022, 6, 20),
       },
     ],
     data_structures: [
       {
         file: "Linked_List",
         start: new Date(2022, 6, 4),
-        end: "",
+        end: new Date(2022, 6, 20),
       },
     ],
     network: [
       {
         file: "Computer_And_Internet2",
         start: new Date(2022, 6, 5),
-        end: "",
+        end: new Date(2022, 6, 20),
       },
       {
         file: "Computer_And_Internet1",
