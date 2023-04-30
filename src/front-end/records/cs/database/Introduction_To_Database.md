@@ -241,6 +241,67 @@ ERD에서 기본키는 속성의 이름에 밑줄을 그어서 표현한다.
 
 <br/>
 
+```mermaid
+
+erDiagram
+
+    Members{
+        int mem_number pk
+        string mem_id uk
+        string mem_name
+        string mem_gender
+        date mem_birth
+        string[] mem_interests
+        string mem_auth
+    }
+
+    Boards {
+        int bo_number
+        string bo_title
+        string bo_content
+        datetime bo_create
+        datetime bo_update
+        string bo_writer
+        string bo_name
+        int views
+        string[] iamages
+    }
+
+    Comments {
+        int co_number pk
+        string co_contents
+        datetime co_create
+        datetime co_update
+        int co_bo_number
+        string co_id
+        string co_name
+
+    }
+
+    Notices {
+        int no_number pk
+        string no_title
+        string no_contents
+        string no_name
+        datetime no_create
+    }
+
+    Scores {
+        int sc_record_number
+        int sc_mem_number
+        int sc_score
+        datetime sc_create
+
+    }
+
+```
+
+
+
+
+
+
+
 <br/>
 
 ---
