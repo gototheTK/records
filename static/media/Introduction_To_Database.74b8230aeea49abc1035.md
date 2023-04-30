@@ -161,3 +161,149 @@
 ---
 
 <br/>
+
+## 관계형 데이터베이스 설계
+
+<br/>
+
+### 관계형 모델 설계 과정
+
+<br/>
+
+#### 요구 사항 분석 -> 데이터 모델링 -> ER-관계 사상 -> 구현
+
+<br/>
+
+### ERD의 엔티티와 속성
+
+#### 엔티티(Entity)
+
+릴레이션을 ERD에서는 엔티티라고 부른다.
+
+<br/>
+
+#### 속성(Attribute)
+
+엔티티에 속해 있으며 엔티티를 설명하는 요소이다.
+
+<br/>
+
+#### 복합 속성
+
+여러 세부 속성으로 구성된 속성
+
+<br/>
+
+#### 단순 속성
+
+복합 속성이 아닌 속성
+
+<br/>
+
+#### 저장된 속성
+
+실제로 스토리지에 저장되는 속성
+
+<br/>
+
+#### 유도된 속성
+
+저장된 속성을 이용하여 연산을 통해 유도되는 속성
+
+<br/>
+
+#### 단일 속성
+
+더 이상 쪼갤 수 없는 원자값만 존재하는 속성
+
+<br/>
+
+#### 다치 속성
+
+여러 개의 값이 존재하는 속성
+
+
+<br/>
+
+
+#### 관계(Relationship)
+
+엔티티와 엔티티간의 어떤 관계인지 개념적으로 설명하는 요소.
+
+<br/>
+
+### 기본키에 해당하는 속성
+
+ERD에서 기본키는 속성의 이름에 밑줄을 그어서 표현한다.
+
+
+
+
+<br/>
+
+```mermaid
+
+erDiagram
+
+    Members{
+        int mem_number pk
+        string mem_id uk
+        string mem_name
+        string mem_gender
+        date mem_birth
+        string[] mem_interests
+        string mem_auth
+    }
+
+    Boards {
+        int bo_number
+        string bo_title
+        string bo_content
+        datetime bo_create
+        datetime bo_update
+        string bo_writer
+        string bo_name
+        int views
+        string[] iamages
+    }
+
+    Comments {
+        int co_number pk
+        string co_contents
+        datetime co_create
+        datetime co_update
+        int co_bo_number
+        string co_id
+        string co_name
+
+    }
+
+    Notices {
+        int no_number pk
+        string no_title
+        string no_contents
+        string no_name
+        datetime no_create
+    }
+
+    Scores {
+        int sc_record_number
+        int sc_mem_number
+        int sc_score
+        datetime sc_create
+
+    }
+
+```
+
+
+
+
+
+
+
+<br/>
+
+---
+
+<br/>
