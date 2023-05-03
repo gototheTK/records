@@ -236,9 +236,6 @@
 
 ERD에서 기본키는 속성의 이름에 밑줄을 그어서 표현한다.
 
-
-
-
 <br/>
 
 ```mermaid
@@ -256,12 +253,12 @@ erDiagram
     }
 
     Boards {
-        int bo_number
+        int bo_number pk
         string bo_title
-        string bo_content
+        string bo_contents
         datetime bo_create
         datetime bo_update
-        string bo_writer
+        string bo_id
         string bo_name
         int views
         string[] iamages
@@ -296,7 +293,86 @@ erDiagram
 
 ```
 
+```erDiagram
 
+    Members {
+        int mem_number pk
+        string mem_id uk
+        string mem_name
+        string mem_gender
+        date mem_birth
+        datetime mem_create
+        string mem_auth
+    }
+
+    Products {
+        int pro_number pk
+        string pro_name
+        string pro_explain
+        string pro_main_image
+        datetime pro_register
+        int pro_price
+        int pro_stock
+    }
+
+    Categories {
+        string cat_name pk
+        string[] cat_product
+        datetime cat_register
+    }
+
+    Orders {
+        int ord_number pk
+        int ord_total
+        int ord_discount
+        int ord_card_charge
+        datetime ord_request
+        datetime ord_complete
+        int ord_state
+    }
+
+    Coupons {
+        int cou_number pk
+        string cou_category
+        int cou_discount
+        datetime cou_use
+        string cou_used
+        string cou_name
+    }
+
+    Notices {
+        int not_number pk
+        string not_title
+        string not_contents
+        string not_name
+        datetime not_create
+    }
+
+```
+
+<br/>
+
+### ERD의 관계와 카디날리티
+
+<br/>
+
+#### 카디날리디
+
+엔티티 간의 관계에 대한 차수이다. 관계로는 1:1 ,1:N, N:M이 있다.
+관계에서도 속성을 가질 수 있다.
+
+#### 약한 엔티티
+
+자신을 식별할 수 있는 키를 다른 엔티티를 참조하는 외래키와 자신의 보조키를 가지고 만드는 엔티티를 약한 엔티티라고한다. (기본키=외래키+보조적인속성)
+
+
+<br/>
+
+### 개념적 설계와 ERD(관계, 참여)
+
+#### 전체 참여: 엔티티에 속하는 원소의 모든 집합이 관계에서 전체 참여해야한다.
+
+#### 부분 참여: 엔티티에 속하는 원소의 모든 집합이 부문만 참여해야한다.
 
 
 
