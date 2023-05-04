@@ -236,9 +236,6 @@
 
 ERD에서 기본키는 속성의 이름에 밑줄을 그어서 표현한다.
 
-
-
-
 <br/>
 
 ```mermaid
@@ -256,12 +253,12 @@ erDiagram
     }
 
     Boards {
-        int bo_number
+        int bo_number pk
         string bo_title
-        string bo_content
+        string bo_contents
         datetime bo_create
         datetime bo_update
-        string bo_writer
+        string bo_id
         string bo_name
         int views
         string[] iamages
@@ -296,8 +293,139 @@ erDiagram
 
 ```
 
+```erDiagram
+
+    Members {
+        int mem_number pk
+        string mem_id uk
+        string mem_name
+        string mem_gender
+        date mem_birth
+        datetime mem_create
+        string mem_auth
+    }
+
+    Products {
+        int pro_number pk
+        string pro_name
+        string pro_explain
+        string pro_main_image
+        datetime pro_register
+        int pro_price
+        int pro_stock
+    }
+
+    Categories {
+        string cat_name pk
+        string[] cat_product
+        datetime cat_register
+    }
+
+    Orders {
+        int ord_number pk
+        int ord_total
+        int ord_discount
+        int ord_card_charge
+        datetime ord_request
+        datetime ord_complete
+        int ord_state
+    }
+
+    Coupons {
+        int cou_number pk
+        string cou_category
+        int cou_discount
+        datetime cou_use
+        string cou_used
+        string cou_name
+    }
+
+    Notices {
+        int not_number pk
+        string not_title
+        string not_contents
+        string not_name
+        datetime not_create
+    }
+
+```
+
+<br/>
+
+### ERD의 관계와 카디날리티
+
+<br/>
+
+#### 카디날리디
+
+엔티티 간의 관계에 대한 차수이다. 관계로는 1:1 ,1:N, N:M이 있다.
+관계에서도 속성을 가질 수 있다.
+
+#### 약한 엔티티
+
+자신을 식별할 수 있는 키를 다른 엔티티를 참조하는 외래키와 자신의 보조키를 가지고 만드는 엔티티를 약한 엔티티라고한다. (기본키=외래키+보조적인속성)
 
 
+<br/>
+
+### 개념적 설계와 ERD(관계, 참여)
+
+#### 전체 참여: 엔티티에 속하는 원소의 모든 집합이 관계에서 전체 참여해야한다.
+
+#### 부분 참여: 엔티티에 속하는 원소의 모든 집합이 부문만 참여해야한다.
+
+
+<br/>
+
+---
+
+<br/>
+
+## 인덱스
+
+<br/>
+
+### 1. 주기억장치와 보조기억장치
+
+프로그램을 실행시 모든 데이터를 주기억장치에 적제하지 않고 필요한 데이터만 가져와서 적제합니다. 보조기억장치는 CPU가 직접 데이터를 가져오지 않고, Controller가 보조기억장치에서 요청 데이터를 읽어 버퍼에 저장해놓습니다. 그러나 보조기억장치는 느리기때문에, DBMS가 다양한 자료구조와 SQL 파서, 옵티마이저를 통해 사용자의 질의한 구문이 무엇인지 해석 후 데이터를 어떻게 읽어올지 계산합니다.
+
+<br/>
+
+### 2. 인덱스
+
+자료구조는 메모리에서만 쓰이는게 아닌 보조기억장치의 파일과 같은 데이터에서도 사용되는데, 인덱스는 보조기억장치에서 필요로하는 블록이나 레코드에 빠르게 접근하기위한 파일 형태의 자료구조입니다. 기본적으로 인덱스필드와 레코드 포인터 필드로 구성되어있습니다.
+
+기본적으로 인덱스(기본인덱스)는 레코드(투플)들의 집합인 블록을 보조기억장치에서 주기억장치로 가져와서 찾습니다. 인덱스 필드값을 어떤걸로 하느냐 혹은 레코드 포인터값을, 자료구조를 어떻게 하느냐에 따라 인덱스의 종류는 달라집니다.
+
+<br/>
+
+#### 기본 인덱스
+
+기본키로 레코드에 접근하는 방식으로 가장 기본적인 형태의 레코드 접근 자료구조입니다.
+
+<br/>
+
+#### 보조 인덱스
+
+기본키가 아닌 후보키로 인덱스 필드값으로하는 파일형태의 자료구조입니다. 레코드는 기본키로 정렬되어 있기때문에 보통 기본 인덱스보다 많은 파일 엔트리를 요구합니다.
+
+<br/>
+
+#### 클러스터링 인덱스
+
+슈퍼키가 아닌 필드를 기준으로 정렬하여 구성하는 파일형태의 자료구조 입니다. 단, 삭제/삽입시 재배치가 발생하는 문제가 있습니다.
+
+<br/>
+
+#### 다단계 인덱스
+
+레코드 포인터의 필드값을 인덱스를 가리키는 계층구조의 인덱스 파일입니다. 리프 계층에 레코드의 포인터값이 저장되며 보통 B+Tree를 많이 이용하여 구현합니다. 다중 분류에 유리합니다.
+
+<br/>
+
+#### 해시인덱스
+
+다중 버킷으로 구성된 인덱스 파일입니다. 해시함수로 인덱스 필드의 값을 해싱하여 해당하는 버킷에 저장하거나 값을 버킷에서 검색하여 해당하는 레코드에 접근합니다.
 
 
 
