@@ -509,6 +509,19 @@ SHOW INDEX FROM 테이블_이름;
 <br/>
 
 
+### 4. 인덱스와 옵티마이저 실행계획(MySql 8.0기준)
+
+옵티마이저 실행계획 보는 질의어
+
+> EXPLAIN [format=tree|json] [SELECT 구문]
+
+>EXPLAIN SELECT * FROM MEMBER WHERE M_ID = 2;
+
+#### 4.1. 설명
+
+
+
+
 
 
 <br/>
