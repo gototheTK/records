@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/records-archive/static/css/main.1093a73e.css",
-    "main.js": "/records-archive/static/js/main.4c9c362c.js",
+    "main.js": "/records-archive/static/js/main.8a0c6249.js",
     "static/js/787.3bd18aa8.chunk.js": "/records-archive/static/js/787.3bd18aa8.chunk.js",
     "static/media/Computer_And_Internet1.md": "/records-archive/static/media/Computer_And_Internet1.a8471dc57023216fae4d.md",
-    "static/media/Introduction_To_Database.md": "/records-archive/static/media/Introduction_To_Database.67b7bdd7c13e80ad088e.md",
+    "static/media/Introduction_To_Database.md": "/records-archive/static/media/Introduction_To_Database.ace6ace60feeddb25f50.md",
     "static/media/Basic_Command.md": "/records-archive/static/media/Basic_Command.285beca514849aec3b8f.md",
     "static/media/README.md": "/records-archive/static/media/README.8850b7294c464a435e86.md",
     "static/media/Linked_List.md": "/records-archive/static/media/Linked_List.d1982e34a7f43d6813eb.md",
@@ -17,11 +17,11 @@
     "static/media/Fundamentals_Javascript.md": "/records-archive/static/media/Fundamentals_Javascript.b5d91e0cee03f93c6060.md",
     "static/media/Git_Commands.md": "/records-archive/static/media/Git_Commands.31d6cfe0d16ae931b73c.md",
     "main.1093a73e.css.map": "/records-archive/static/css/main.1093a73e.css.map",
-    "main.4c9c362c.js.map": "/records-archive/static/js/main.4c9c362c.js.map",
+    "main.8a0c6249.js.map": "/records-archive/static/js/main.8a0c6249.js.map",
     "787.3bd18aa8.chunk.js.map": "/records-archive/static/js/787.3bd18aa8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1093a73e.css",
-    "static/js/main.4c9c362c.js"
+    "static/js/main.8a0c6249.js"
   ]
 }
