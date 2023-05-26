@@ -10,6 +10,17 @@
 
 <br/>
 
+## | : It can provide to pipe its output into loop like 'while';
+### Example) cat courses.csv | while read MAJOR COURSE do <STATEMENTS> done
+
+
+<br/>
+
+---
+
+<br/>
+
+
 ## Loop Commands
 
 <br/>
@@ -52,6 +63,8 @@
 ## variables(environment and current shell)
 
 ### RANDOM : the variable that will generate a random number between 0 and 32767.
+
+### IFS(Internal Field Separator) : It's variable to be used to determine word boundaries. It defaults to spaces, tabs, and new lines.
 
 ---
 
