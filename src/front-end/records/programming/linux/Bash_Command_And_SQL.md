@@ -94,3 +94,14 @@
 #### Example) [[ hello =~ el ]]; echo $? OR [[ "hello world" =~ ^h.+d$ ]]; echo $?
 
 #### 
+
+
+## NOTES IN SQL
+
+### You cannot put LIMIT before ORDER BY, or either of them before WHERE.
+
+### When using GROUP BY, any columns in the SELECT area must be included in the GROUP BY area. Other columns  must be used with any of the aggregate functions(MAX, AVG, COUNT, etc).
+
+### GROUP BY has HAVING option. HAVING has conditions and the conditions must be an aggregate function with a test.
+
+### There's shortcut keyword, USING to join tables if the foreign key column has the same name in both tables. Example) SELECT * FROM <table_1> FULL JOIN <table_2>(<column> FULL JOIN <table_3> USING(<column>)) 
