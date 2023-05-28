@@ -10,9 +10,14 @@
 
 ## stdout
 
+<br/>
+
+
 ### wc(word count) : It showed you how lines(-l), words(-w) or bytes(-c).
 
----
+<br/>
+
+### <command> >> <file_name> : append the output of the <command> to the file.
 
 <br/>
 
@@ -20,17 +25,23 @@
 
 <br/>
 
-## stdin, stdout, stderr
-
-### |(pipe)/stdin : It can provide to pipe its output into loop like 'while'; And pipe(|) ran the command in a subshell or subprocess. It's another terminal instance within the one. So the next command of pipe(|) doesn't affect the variables you previously set.
-
-### <command1> < <command2> (left bracket)/stdin : the command(<) uses <command2> as stdin.(A default stdin is keyboard.)
-
-### <command1> >> <file_name> : append the output of the command to the file.
+---
 
 <br/>
 
-### Example) cat courses.csv | while read MAJOR COURSE do <STATEMENTS> done
+## stdin(A default stdin is keyboard.)
+
+<br/>
+
+### |(pipe)/stdin :  It's another terminal instance within the one. pipe(|) ran the command in a subshell or subprocess. So the next command of pipe(|) doesn't affect the variables you previously set. And It can provide to pipe its output into loop like 'while'. 
+
+<br/>
+
+#### Example) cat courses.csv | while read MAJOR COURSE do <STATEMENTS> done
+
+<br/>
+
+### <command> < <file_name> (left bracket)/stdin : the command(<) uses <file_name> as stdin.
 
 <br/>
 
@@ -42,7 +53,7 @@
 
 ## Commands Related To File.
 
-### grep '<pattern>' <filename> : the command searching for patterns in file. When you want to only pattern, add -o flag. And you can search many patterns by grep '<dog_words>|<woof_words>'. When you use regex, you add -E, --extended-regexp flag.
+### grep '<pattern>' <filename> : the command searching for patterns in file. When you want to get only pattern, add -o flag. When you use regex, you add -E, --extended-regexp flag.Then, you can search many patterns by grep like '<pattern1>|<pattern2>'.
 
 ### sed 's/<pattern_to_replace>/<text_to_replace_it_with>/' <filename> : By default, it won't replace the text in the file. It will output it to stdout. When you want to replace all instances in a line or ignore the case of the pattern, you can add the flags(g,i) after the last / in the sed arguments. And add the regex flag(-r ,-E) for using regex.
 
@@ -78,7 +89,7 @@
 
 <br/>
 
-## sleep seconds
+## sleep <seconds>
 
 ## type <name> : Display information about command type. For each Name, it indicates how it would be interpreted if used as a command name.
 
@@ -103,6 +114,9 @@
 
 ## variables(environment and current shell)
 
+
+### $? : previous exit code 
+
 ### RANDOM : the variable that will generate a random number between 0 and 32767.
 
 ### IFS(Internal Field Separator) : It's variable to be used to determine word boundaries. It defaults to spaces, tabs, and new lines.
@@ -119,7 +133,7 @@
 
 <br/>
 
-### Bash sees everything as a string so it just printed the %75 part literally. In the terminal, create an I variable equal to 0(zero), so you can play with it and figure out how to do some calculations.
+### Bash sees everything as a string so it just printed anything literally. In the terminal, create an I variable equal to 0(zero), so you can play with it and figure out how to do some calculations.
 
 <br/>
 
