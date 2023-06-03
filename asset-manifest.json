@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/records-archive/static/css/main.1093a73e.css",
-    "main.js": "/records-archive/static/js/main.5f00aef7.js",
+    "main.js": "/records-archive/static/js/main.077491fa.js",
     "static/js/787.3bd18aa8.chunk.js": "/records-archive/static/js/787.3bd18aa8.chunk.js",
-    "static/media/Introduction_To_Database.md": "/records-archive/static/media/Introduction_To_Database.247f4f92a11bd285b9b5.md",
+    "static/media/Introduction_To_Database.md": "/records-archive/static/media/Introduction_To_Database.0f3f7ee0c9f73b0088e2.md",
     "static/media/Computer_And_Internet1.md": "/records-archive/static/media/Computer_And_Internet1.a8471dc57023216fae4d.md",
     "static/media/Basic_Command.md": "/records-archive/static/media/Basic_Command.285beca514849aec3b8f.md",
     "static/media/Bash_Command_And_SQL.md": "/records-archive/static/media/Bash_Command_And_SQL.a3203a6f119b537c5d93.md",
@@ -20,11 +20,11 @@
     "static/media/C_Language.md": "/records-archive/static/media/C_Language.8d8e008f8475bcc208a8.md",
     "static/media/Git_Commands.md": "/records-archive/static/media/Git_Commands.31d6cfe0d16ae931b73c.md",
     "main.1093a73e.css.map": "/records-archive/static/css/main.1093a73e.css.map",
-    "main.5f00aef7.js.map": "/records-archive/static/js/main.5f00aef7.js.map",
+    "main.077491fa.js.map": "/records-archive/static/js/main.077491fa.js.map",
     "787.3bd18aa8.chunk.js.map": "/records-archive/static/js/787.3bd18aa8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1093a73e.css",
-    "static/js/main.5f00aef7.js"
+    "static/js/main.077491fa.js"
   ]
 }
