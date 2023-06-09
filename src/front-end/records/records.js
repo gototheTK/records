@@ -95,6 +95,11 @@ export const subjects = {
     linux: [
       { file: "Basic_Command", start: "", end: new Date(2022, 4, 30) },
       { file: "Bash_Command_And_SQL", start: new Date(2023, 5, 24), end: "" },
+      {
+        file: "Git_Commands",
+        start: new Date(2023, 6, 1),
+        end: new Date(2023, 6, 9),
+      },
     ],
   },
 };
