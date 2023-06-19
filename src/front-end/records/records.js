@@ -59,6 +59,11 @@ export const subjects = {
         start: new Date(2022, 6, 4),
         end: new Date(2022, 6, 20),
       },
+      {
+        file: "Graph",
+        start: new Date(2023, 6, 18),
+        end: new Date(2023, 6, 19),
+      },
     ],
     network: [
       {
