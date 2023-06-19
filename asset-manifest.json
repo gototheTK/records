@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/records-archive/static/css/main.1093a73e.css",
-    "main.js": "/records-archive/static/js/main.12d7b737.js",
+    "main.js": "/records-archive/static/js/main.f9570449.js",
     "static/js/787.3bd18aa8.chunk.js": "/records-archive/static/js/787.3bd18aa8.chunk.js",
     "static/media/Introduction_To_Database.md": "/records-archive/static/media/Introduction_To_Database.e685a481ece20e4c0d6a.md",
     "static/media/Computer_And_Internet1.md": "/records-archive/static/media/Computer_And_Internet1.a8471dc57023216fae4d.md",
@@ -12,6 +12,7 @@
     "static/media/Linked_List.md": "/records-archive/static/media/Linked_List.d1982e34a7f43d6813eb.md",
     "static/media/Postgre_SQL_DataBase.md": "/records-archive/static/media/Postgre_SQL_DataBase.2bd6b45e2283d53f4480.md",
     "static/media/Basic_Web.md": "/records-archive/static/media/Basic_Web.1747be5a8520e1be90d0.md",
+    "static/media/Graph.md": "/records-archive/static/media/Graph.e6cf651c9746d4f410d1.md",
     "static/media/Basic_Database.md": "/records-archive/static/media/Basic_Database.33ddb5f89e6163ffdec1.md",
     "static/media/Basic_Network.md": "/records-archive/static/media/Basic_Network.6eeff1c27ad3534187fa.md",
     "static/media/Computer_And_Internet2.md": "/records-archive/static/media/Computer_And_Internet2.4baac06362d6b9125f94.md",
@@ -20,11 +21,11 @@
     "static/media/Review_Basic_DataStrucutes.md": "/records-archive/static/media/Review_Basic_DataStrucutes.b22d1855da944858d16b.md",
     "static/media/C_Language.md": "/records-archive/static/media/C_Language.8d8e008f8475bcc208a8.md",
     "main.1093a73e.css.map": "/records-archive/static/css/main.1093a73e.css.map",
-    "main.12d7b737.js.map": "/records-archive/static/js/main.12d7b737.js.map",
+    "main.f9570449.js.map": "/records-archive/static/js/main.f9570449.js.map",
     "787.3bd18aa8.chunk.js.map": "/records-archive/static/js/787.3bd18aa8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1093a73e.css",
-    "static/js/main.12d7b737.js"
+    "static/js/main.f9570449.js"
   ]
 }
